@@ -1,6 +1,10 @@
 // ignore_for_file: constant_identifier_names
 
 class AppAssets {
+  static const String ic_google_plus = 'assets/images/google.png';
+  static const String ic_twitter = 'assets/images/twitter.png';
+  static const String ic_facebook = 'assets/images/facebook.png';
+  static const String theme_background = 'assets/images/theme_background.png';
   static const String app_background = 'assets/images/background_image.png';
   static const String ic_active = 'assets/images/ic_active.png';
   static const String ic_arrow_left = 'assets/images/ic_arrow_left.png';
