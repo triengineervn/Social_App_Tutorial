@@ -71,16 +71,11 @@ class _MessengerPageState extends State<MessengerPage> {
                                     ),
                                   ),
                                   child: Image(
-                                    image: NetworkImage(results[index]
-                                        .user!
-                                        .picture!
-                                        .thumbnail
-                                        .toString()),
+                                    image: NetworkImage(results[index].user!.picture!.thumbnail.toString()),
                                   ),
                                 ),
                                 Padding(
-                                  padding:
-                                      const EdgeInsets.symmetric(vertical: 8),
+                                  padding: const EdgeInsets.symmetric(vertical: 8),
                                   child: Text(
                                     firstName,
                                     style: AppStyles.caption11,
@@ -97,16 +92,11 @@ class _MessengerPageState extends State<MessengerPage> {
                               children: [
                                 AdvancedAvatar(
                                   child: Image(
-                                    image: NetworkImage(results[index]
-                                        .user!
-                                        .picture!
-                                        .thumbnail
-                                        .toString()),
+                                    image: NetworkImage(results[index].user!.picture!.thumbnail.toString()),
                                   ),
                                 ),
                                 Padding(
-                                  padding:
-                                      const EdgeInsets.symmetric(vertical: 8),
+                                  padding: const EdgeInsets.symmetric(vertical: 8),
                                   child: Text(
                                     firstName,
                                     style: AppStyles.caption11,
@@ -132,8 +122,7 @@ class _MessengerPageState extends State<MessengerPage> {
                         //sort List???
                         return ListTile(
                           leading: AdvancedAvatar(
-                            statusColor:
-                                status == 'online' ? AppColors.adding : null,
+                            statusColor: status == 'online' ? AppColors.adding : null,
                             statusSize: 12,
                             children: [
                               if (unReadCount != 0)
@@ -159,11 +148,7 @@ class _MessengerPageState extends State<MessengerPage> {
                                 ),
                             ],
                             child: Image(
-                              image: NetworkImage(results[index]
-                                  .user!
-                                  .picture!
-                                  .thumbnail
-                                  .toString()),
+                              image: NetworkImage(results[index].user!.picture!.thumbnail.toString()),
                             ),
                           ),
                           title: Text(
@@ -181,8 +166,7 @@ class _MessengerPageState extends State<MessengerPage> {
                           ),
                           trailing: Text(
                             getHourAndMinute(timeInbox),
-                            style: AppStyles.caption13
-                                .copyWith(color: AppColors.gray1),
+                            style: AppStyles.caption13.copyWith(color: AppColors.gray1),
                           ),
                         );
                       },
@@ -193,7 +177,7 @@ class _MessengerPageState extends State<MessengerPage> {
             );
           } else {
             return const Center(
-              child: Text("No Users"),
+              child: CircularProgressIndicator(),
             );
           }
         },

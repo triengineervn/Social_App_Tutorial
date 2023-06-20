@@ -1,6 +1,7 @@
 // ignore_for_file: constant_identifier_names
 
 class AppAssets {
+  static const String app_background = 'assets/images/background_image.png';
   static const String ic_active = 'assets/images/ic_active.png';
   static const String ic_arrow_left = 'assets/images/ic_arrow_left.png';
   static const String ic_home = 'assets/images/ic_home.png';
@@ -10,12 +11,10 @@ class AppAssets {
   static const String ic_profile = 'assets/images/ic_profile.png';
   static const String ic_stream = 'assets/images/ic_stream.png';
   static const String ic_active_2x = 'assets/images/2.0x/ic_active_2x.png';
-  static const String ic_arrow_left_2x =
-      'assets/images/2.0x/ic_left_arrow_2x.png';
+  static const String ic_arrow_left_2x = 'assets/images/2.0x/ic_left_arrow_2x.png';
   static const String ic_home_2x = 'assets/images/2.0x/ic_home_2x.png';
   static const String ic_message_2x = 'assets/images/2.0x/ic_message_2x.png';
-  static const String ic_notifications_2x =
-      'assets/images/2.0x/ic_notifications_2x.png';
+  static const String ic_notifications_2x = 'assets/images/2.0x/ic_notifications_2x.png';
   static const String ic_plus_2x = 'assets/images/2.0x/ic_plus_2x.png';
   static const String ic_profile_2x = 'assets/images/2.0x/ic_profile_2x.png';
   static const String ic_stream_2x = 'assets/images/2.0x/ic_stream_2x.png';
@@ -23,8 +22,7 @@ class AppAssets {
   static const String ic_arrow_left_3x = '';
   static const String ic_home_3x = 'assets/images/3.0x/ic_home_3x.png';
   static const String ic_message_3x = 'assets/images/3.0x/ic_message_3x.png';
-  static const String ic_notifications_3x =
-      'assets/images/3.0x/ic_notifications_3x.png';
+  static const String ic_notifications_3x = 'assets/images/3.0x/ic_notifications_3x.png';
   static const String ic_plus_3x = '';
   static const String ic_profile_3x = 'assets/images/3.0x/ic_profile_3x.png';
   static const String ic_stream_3x = 'assets/images/3.0x/ic_stream_3x.png';

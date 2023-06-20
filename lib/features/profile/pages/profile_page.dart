@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:social_app_tutorial/routes/route_name.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
@@ -10,9 +11,19 @@ class ProfilePage extends StatefulWidget {
 class _ProfilePageState extends State<ProfilePage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Center(
-        child: Text('Profile Page'),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamedAndRemoveUntil(context, RouteName.loginScreen, (_) => false);
+              },
+              child: const Text('log out'),
+            ),
+          ],
+        ),
       ),
     );
   }

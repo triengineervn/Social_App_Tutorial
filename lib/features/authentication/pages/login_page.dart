@@ -21,7 +21,7 @@ class LoginScreen extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, RouteName.dashboard);
+                Navigator.pushNamedAndRemoveUntil(context, RouteName.bottomNavMenu, (_) => false);
               },
               child: const Text('Log in'),
             ),

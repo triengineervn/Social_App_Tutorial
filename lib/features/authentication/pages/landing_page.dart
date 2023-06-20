@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:social_app_tutorial/routes/route_name.dart';
+import 'package:social_app_tutorial/themes/app_assets.dart';
+import 'package:social_app_tutorial/themes/app_colors.dart';
 
 class LandingPage extends StatelessWidget {
   const LandingPage({super.key});
@@ -7,19 +9,35 @@ class LandingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Landing Screen')),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, RouteName.loginScreen);
-              },
-              child: const Text('Go to the Login screen'),
+      body: Stack(
+        children: [
+          Center(
+            child: Container(
+              decoration: const BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage(AppAssets.app_background),
+                  fit: BoxFit.fill,
+                ),
+              ),
             ),
-          ],
-        ),
+          ),
+          Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                ElevatedButton(
+                  onPressed: () {
+                    Navigator.pushNamedAndRemoveUntil(context, RouteName.loginScreen, (_) => false);
+                  },
+                  child: const Text(
+                    'Log in',
+                    style: TextStyle(color: AppColors.light, fontSize: 20),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
       ),
     );
   }
