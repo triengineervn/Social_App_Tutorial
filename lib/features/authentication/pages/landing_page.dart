@@ -60,7 +60,7 @@ class _LandingPageState extends State<LandingPage> {
             child: Container(
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage(AppAssets.app_background),
+                  image: AssetImage(AppAssets.landing_background),
                   fit: BoxFit.cover,
                 ),
               ),

@@ -7,8 +7,7 @@ class AppColors {
   static const Color purple = Color(0xff5856D6);
   static const Color tealBlue = Color(0xff5AC8FA);
   static const Color yellow = Color(0xffFFCC00);
-  static const LinearGradient pinkGradient =
-      LinearGradient(colors: [Color(0xffF78361), Color(0xffF54B64)]);
+  static const LinearGradient pinkGradient = LinearGradient(colors: [Color(0xffF78361), Color(0xffF54B64)]);
   static Color colorBurn = const Color(0xff000000).withOpacity(0.4);
   //Graybase
   static const Color gray1 = Color(0xff8E8E93);
@@ -18,7 +17,8 @@ class AppColors {
   static const Color gray5 = Color(0xffEFEFF4);
   //Basic
   static const Color adding = Color(0xff4CD964);
-  static const Color destructive = Color(0xffFF3B30);
+  static const Color destructive = Colors.redAccent;
+
   static const Color dark = Color(0xff1D1D26);
   static const Color light = Color(0xffFFFFFF);
   //Backgrond
