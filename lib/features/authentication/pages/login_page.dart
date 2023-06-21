@@ -73,6 +73,7 @@ class _LoginScreenState extends State<LoginScreen> {
           if (!regex.hasMatch(value)) {
             return ("Enter Valid Password(Min. 6 Character)");
           }
+          return null;
         },
         onSaved: (value) {
           passwordController.text = value!;
@@ -100,7 +101,7 @@ class _LoginScreenState extends State<LoginScreen> {
         onPressed: () {
           Navigator.pushNamedAndRemoveUntil(
             context,
-            RouteName.bottomNavMenu,
+            RouteName.settingNotificationScreen,
             (route) => false,
           );
         },
@@ -146,38 +147,40 @@ class _LoginScreenState extends State<LoginScreen> {
           Center(
             child: Padding(
               padding: const EdgeInsets.all(30),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'Welcome back',
-                    style: AppStyles.headline1,
-                  ),
-                  const SizedBox(height: 12),
-                  Text(
-                    'Login to your account',
-                    style: AppStyles.body20,
-                  ),
-                  const SizedBox(height: 58),
-                  emailField,
-                  const SizedBox(height: 8),
-                  passwordField,
-                  const SizedBox(height: 40),
-                  loginButton,
-                  const SizedBox(height: 53),
-                  Center(
-                    child: TextButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, RouteName.forgotPassScreen);
-                      },
-                      child: Text(
-                        'For got password?',
-                        style: AppStyles.body15,
-                      ),
+              child: SingleChildScrollView(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Welcome back',
+                      style: AppStyles.headline1,
                     ),
-                  )
-                ],
+                    const SizedBox(height: 12),
+                    Text(
+                      'Login to your account',
+                      style: AppStyles.body20,
+                    ),
+                    const SizedBox(height: 58),
+                    emailField,
+                    const SizedBox(height: 8),
+                    passwordField,
+                    const SizedBox(height: 40),
+                    loginButton,
+                    const SizedBox(height: 53),
+                    Center(
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, RouteName.forgotPassScreen);
+                        },
+                        child: Text(
+                          'For got password?',
+                          style: AppStyles.body15,
+                        ),
+                      ),
+                    )
+                  ],
+                ),
               ),
             ),
           ),

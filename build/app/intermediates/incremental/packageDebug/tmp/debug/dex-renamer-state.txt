@@ -1,4 +1,4 @@
-#Tue Jun 20 22:51:01 ICT 2023
+#Wed Jun 21 11:57:23 ICT 2023
 base.0=C\:\\Users\\trica\\Documents\\My Computer\\Flutter\\FlutterProject\\social_app_tutorial\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -3,6 +3,7 @@ class RouteName {
   static const String loginScreen = 'login';
   static const String forgotPassScreen = 'forgot';
   static const String regisScreen = 'regis';
+  static const String settingNotificationScreen = 'setting-notification';
   static const String bottomNavMenu = 'bottomNavMenu';
   static const String homeScreen = '/home';
   static const String streamScreen = '/stream';

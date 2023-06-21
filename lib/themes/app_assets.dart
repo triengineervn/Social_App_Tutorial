@@ -6,6 +6,7 @@ class AppAssets {
   static const String ic_facebook = 'assets/images/facebook.png';
   static const String theme_background = 'assets/images/theme_background.png';
   static const String login_background = 'assets/images/background_login_image.png';
+  static const String regis_background = 'assets/images/background_regis_image.png';
   static const String forgot_background = 'assets/images/background_forgot_image.png';
   static const String landing_background = 'assets/images/background_image.png';
   static const String ic_active = 'assets/images/ic_active.png';
