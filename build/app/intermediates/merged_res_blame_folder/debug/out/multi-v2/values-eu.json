@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.social_app_tutorial.app-mergeDebugResources-9:/values-eu/values-eu.xml",
+            "outputFile": "com.example.social_app_tutorial.app-mergeDebugResources-11:/values-eu/values-eu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\trica\\.gradle\\caches\\transforms-3\\7e9df2ac2213a6bd3cef0f2f27870d79\\transformed\\core-1.6.0\\res\\values-eu\\values-eu.xml",
@@ -11,6 +11,30 @@
                         "startOffsets": "55",
                         "endColumns": "100",
                         "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "198",
+                        "endColumns": "100",
+                        "endOffsets": "294"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\trica\\.gradle\\caches\\transforms-3\\58aa1384bde170d075503b845cfcf44c\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-eu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "138",
+                        "endOffsets": "333"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "142",
+                        "endOffsets": "193"
                     }
                 }
             ]

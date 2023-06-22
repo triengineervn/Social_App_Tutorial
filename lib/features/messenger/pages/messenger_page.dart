@@ -119,7 +119,7 @@ class _MessengerPageState extends State<MessengerPage> {
                         String timeInbox = results[index].createdAt!.toString();
                         var unReadCount = results[index].unreadCount!;
                         String status = results[index].user!.status.toString();
-                        //sort List???
+
                         return ListTile(
                           leading: AdvancedAvatar(
                             statusColor: status == 'online' ? AppColors.adding : null,
@@ -185,7 +185,6 @@ class _MessengerPageState extends State<MessengerPage> {
     );
   }
 
-  // ignore: non_constant_identifier_names
   Future<List<MessageData>> ReadJsonData() async {
     final jsondata = await rootBundle.loadString('assets/data/chat_data.json');
     final userData = await json.decode(jsondata);

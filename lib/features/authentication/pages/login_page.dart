@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:social_app_tutorial/features/authentication/widgets/stateless/text_editing_controller.dart';
 import 'package:social_app_tutorial/routes/route_name.dart';
 import 'package:social_app_tutorial/themes/app_assets.dart';
 import 'package:social_app_tutorial/themes/app_colors.dart';
@@ -12,85 +13,14 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  // form key
   final _formKey = GlobalKey<FormState>();
 
-  // editing controller
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
 
   String? errorMessage;
   @override
   Widget build(BuildContext context) {
-    final emailField = Container(
-      decoration: BoxDecoration(
-        color: AppColors.gray2.withOpacity(0.5),
-        borderRadius: BorderRadius.circular(30),
-      ),
-      child: TextFormField(
-        autofocus: false,
-        controller: emailController,
-        keyboardType: TextInputType.emailAddress,
-        validator: (value) {
-          if (value!.isEmpty) {
-            return ("Please Enter Your Email");
-          }
-          // reg expression for email validation
-          if (!RegExp("^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+.[a-z]").hasMatch(value)) {
-            return ("Please Enter a valid email");
-          }
-          return null;
-        },
-        onSaved: (value) {
-          emailController.text = value!;
-        },
-        textInputAction: TextInputAction.next,
-        decoration: InputDecoration(
-          prefixIcon: const Icon(Icons.mail),
-          contentPadding: const EdgeInsets.fromLTRB(20, 15, 20, 15),
-          hintText: 'Email',
-          border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(30),
-          ),
-        ),
-      ),
-    );
-
-    final passwordField = Container(
-      decoration: BoxDecoration(
-        color: AppColors.gray2.withOpacity(0.5),
-        borderRadius: BorderRadius.circular(30),
-      ),
-      child: TextFormField(
-        autofocus: false,
-        controller: passwordController,
-        obscureText: true,
-        validator: (value) {
-          RegExp regex = RegExp(r'^.{6,}$');
-          if (value!.isEmpty) {
-            return ("Password is required for login");
-          }
-          if (!regex.hasMatch(value)) {
-            return ("Enter Valid Password(Min. 6 Character)");
-          }
-          return null;
-        },
-        onSaved: (value) {
-          passwordController.text = value!;
-        },
-        textInputAction: TextInputAction.done,
-        decoration: InputDecoration(
-          prefixIcon: const Icon(
-            Icons.vpn_key,
-          ),
-          contentPadding: const EdgeInsets.fromLTRB(20, 15, 20, 15),
-          hintText: "Password",
-          border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(30),
-          ),
-        ),
-      ),
-    );
     final loginButton = Material(
       elevation: 5,
       borderRadius: BorderRadius.circular(30),
@@ -162,9 +92,9 @@ class _LoginScreenState extends State<LoginScreen> {
                       style: AppStyles.body20,
                     ),
                     const SizedBox(height: 58),
-                    emailField,
+                    CustomTextField(textController: emailController, typeOfText: 'email'),
                     const SizedBox(height: 8),
-                    passwordField,
+                    CustomTextField(textController: passwordController, typeOfText: 'password'),
                     const SizedBox(height: 40),
                     loginButton,
                     const SizedBox(height: 53),

@@ -21,7 +21,7 @@ class AppColors {
 
   static const Color dark = Color(0xff1D1D26);
   static const Color light = Color(0xffFFFFFF);
-  //Backgrond
+  //Backgroand
   static Color keyboardGray = const Color(0xffD2D5DB).withOpacity(0.94);
   static Color keyboardLightGray = const Color(0xffEFEFF4).withOpacity(0.94);
   static const Color lightestGray = Color(0xffF3F3F3);
@@ -30,6 +30,7 @@ class AppColors {
   static Color white = const Color(0xffFFFFFF).withOpacity(0.92);
   static const Color transparent = Colors.transparent;
   static const Color primary = Color(0xff242A37);
+  static const Color primary2 = Color(0xff4E586E);
   //Scrims
   static Color darker60 = AppColors.dark.withOpacity(0.6);
   static Color darker30 = AppColors.dark.withOpacity(0.3);

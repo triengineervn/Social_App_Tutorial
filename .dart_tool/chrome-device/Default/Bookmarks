@@ -1,0 +1,230 @@
+{
+   "checksum": "20863de9631d846d60176b49d350492c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13327989882100808",
+            "date_last_used": "0",
+            "guid": "98e371a3-844a-4d47-8348-da4854c85b2a",
+            "id": "14",
+            "name": "Hộp thư đến (316) - tri.engineervn@gmail.com - Gmail",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/1/#inbox"
+         }, {
+            "date_added": "13328026570844925",
+            "date_last_used": "0",
+            "guid": "57c5e752-cc61-4d77-8b1e-ab1fb8ba43f8",
+            "id": "15",
+            "name": "Google Dịch",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://translate.google.com/?hl=vi"
+         }, {
+            "date_added": "13328029979464258",
+            "date_last_used": "0",
+            "guid": "2ec31cea-d217-404f-ba69-48db767ef5ed",
+            "id": "16",
+            "name": "Dart packages",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://pub.dev/"
+         }, {
+            "date_added": "13328094348546095",
+            "date_last_used": "0",
+            "guid": "0c4c11f6-4e84-45cc-872c-8fda1df48874",
+            "id": "17",
+            "name": "Material Design",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://m3.material.io/"
+         }, {
+            "date_added": "13331150266395801",
+            "date_last_used": "0",
+            "guid": "fafeff89-a612-4133-b7b8-c4a15fda245a",
+            "id": "18",
+            "name": "Convert JSON to Swift, C#, TypeScript, Objective-C, Go, Java, C++ and more • quicktype",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://quicktype.io/"
+         }, {
+            "date_added": "13330198306472304",
+            "date_last_used": "0",
+            "guid": "24912a0c-3203-47f7-b7d9-a2b1fd44a02d",
+            "id": "19",
+            "name": "Trending Color Palettes - Coolors",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://coolors.co/palettes/trending"
+         }, {
+            "date_added": "13331238402169333",
+            "date_last_used": "0",
+            "guid": "80686568-493d-4805-95a5-e28793d3346b",
+            "id": "20",
+            "name": "Dashboard - FlutterFlow",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://app.flutterflow.io/"
+         }, {
+            "date_added": "13330255423668895",
+            "date_last_used": "0",
+            "guid": "687a81b3-235c-427c-92fd-da89f9600322",
+            "id": "21",
+            "name": "Your Repositories",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://github.com/triengineervn?tab=repositories"
+         }, {
+            "date_added": "13328075649881317",
+            "date_last_used": "13328683536619532",
+            "guid": "e4afe3d9-f2bd-4793-a158-7bb854917fd1",
+            "id": "22",
+            "name": "200Lab Online Courses",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://online.200lab.io/library"
+         }, {
+            "date_added": "13328871050717184",
+            "date_last_used": "0",
+            "guid": "46d7a62e-8e1b-4436-b435-601f17d370ad",
+            "id": "23",
+            "name": "ChatGPT",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://chat.openai.com/"
+         }, {
+            "date_added": "13331657159962846",
+            "date_last_used": "0",
+            "guid": "21d806a1-8cd9-486b-b9a4-68cd96ea2f6c",
+            "id": "24",
+            "name": "Công cụ viết CV tiếng Anh/Việt chuyên nghiệp - TopCV.vn",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.topcv.vn/quan-ly-cv"
+         }, {
+            "date_added": "13331801628889978",
+            "date_last_used": "0",
+            "guid": "8c00d4b8-4bec-4ac5-b364-0d257e8e994f",
+            "id": "8",
+            "name": "ASUS Software Portal - Exclusive technology",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/Software-and-Innovations-Portal/"
+         }, {
+            "date_added": "13331801628889927",
+            "date_last_used": "0",
+            "guid": "5a22458e-0248-479b-ba7f-1385cf0f4237",
+            "id": "7",
+            "name": "MyASUS Software - Get the best from ASUS PC",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/ASUS-Software/"
+         }, {
+            "date_added": "13331801628889677",
+            "date_last_used": "0",
+            "guid": "a2fdfd3b-6e29-4d60-b299-205b11a630bb",
+            "id": "6",
+            "name": "McAfee LiveSafe",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://home.mcafee.com/root/campaign.aspx?cid=246814"
+         } ],
+         "date_added": "13331801628394120",
+         "date_last_used": "0",
+         "date_modified": "13331804640854641",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13331149073898213",
+            "date_last_used": "0",
+            "guid": "ea0caf27-f70d-4374-9e49-02a3c7dbb20a",
+            "id": "9",
+            "name": "52 Flutter developer interview questions - TestGorilla",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.testgorilla.com/blog/flutter-developer-interview-questions/?utm_term=&utm_campaign=Performance+Max+%7C+RoW+Old&utm_source=google&utm_medium=cpc&hsa_acc=4932434860&hsa_cam=13402555368&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjwp6CkBhB_EiwAlQVyxZ5ggTcOHCh5OydL8M8F1BighUIfWImRQsF-WY5R3THpltyhFyYEyhoCJ3kQAvD_BwE"
+         }, {
+            "date_added": "13331149383255517",
+            "date_last_used": "0",
+            "guid": "0c492fba-f0f3-46a5-b646-b19b7bf3e6f4",
+            "id": "10",
+            "name": "Flutter Riverpod 2.0: The Ultimate Guide",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://codewithandrea.com/articles/flutter-state-management-riverpod/?fbclid=IwAR22xuC04FPnB6PnRgwfb0NuD80jRDfImff7xn-v0v_rbZ1ImghcS93tE-E"
+         }, {
+            "date_added": "13331149911881608",
+            "date_last_used": "0",
+            "guid": "527c2946-45a4-4529-91a0-8de6608cc8d5",
+            "id": "11",
+            "name": "Flutter Project Structure: Feature-first or Layer-first?",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://codewithandrea.com/articles/flutter-project-structure/"
+         }, {
+            "date_added": "13331149992713105",
+            "date_last_used": "0",
+            "guid": "51f8075e-2636-4fb3-abe8-dee1c1836df0",
+            "id": "12",
+            "name": "VSCode Shortcuts, Extensions & Settings for Flutter Development",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://codewithandrea.com/articles/vscode-shortcuts-extensions-settings-flutter-development/"
+         }, {
+            "date_added": "13331285582952149",
+            "date_last_used": "0",
+            "guid": "d1dbc19a-c966-43a3-94a7-025a646b49ef",
+            "id": "13",
+            "name": "What's the best project structure for medium/large Flutter apps? Most likely, there's no \"right\" answer that works for all projec - Rattibha",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://en.rattibha.com/thread/1506285698558660609"
+         } ],
+         "date_added": "13331801628394124",
+         "date_last_used": "0",
+         "date_modified": "13331285582952149",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13331801628394125",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCEq3ltyIAQAAEgAgASoYZ0NWamtRY1BsM3Zkemw2bGdyNkJydz09oAYMEqkBCBgSpAEKHERnTndZT29DWkhGZWo5aW5DQVIwOU5mQVJYaz0SJDIxZDgwNmExLThjZDktNDg2Yi1iOWE0LTY4Y2Q5NmVhMmY2YxgAIAIoAjDE7trkjTE47bXon40xQKDD2uSNMUoccjB2T1J6VVZVbldJOThsdDk1eWlXekNDaC9RPVogIh7/6mozbUNkZGR3cjh3MHAvWnhXYWdIY3hPZEJZRT1loFwItRKpAQgXEqQBChxjczlBVC8wSi9sWnRTQnpzVTNhdjl5bUZoQ1k9EiQ0NmQ3YTYyZS04ZTFiLTQ0MzYtYjQzNS02MDFmMTdkMzcwYWQYACACKAIwyO7a5I0xOPDlpe+CMUCfw9rkjTFKHEZWd3pFRkV4bjl5Q0p5TFlOZTlSMGJXWUJXMD1aICIe/9UzdEVHYzVCS2dESVVERS9uUk5JYUZaYXlCTVk9ZWkbIvMSqAEIFBKjAQocZWV5UFNMVGY1K1ZwZEI0Yng4SFR5SXZtWjBrPRIkODA2ODY1NjgtNDkzZC00ODA1LTk1YTUtZTI4NzkzZDMzNDZiGAAgAigCMMbu2uSNMTjctZHYizFAnsPa5I0xShxZNExicmdSaUs0QUloeHkvWnE5YWlJNHRMQ009Wh8iHf13KyszUDJRM1JMNnBHclpJYTI3K0RieWNWNWs9ZZvLZxgSqAEIFRKjAQocVDRTTFpabWtoYkFjeXpQbjhKWE45ZlV3RHQ4PRIkNjg3YTgxYjMtMjM1Yy00MjdjLTkyZmQtZGE4OWY5NjAwMzIyGAAgAigCMMXu2uSNMTjYlLWDiDFAn8Pa5I0xShx4RW5mK1dHeHBBdWVMdFVRZkxxZTRTendEQ0U9Wh8iHf81eEJqZXJ1VDEwM3c2RmQyTkQxNG90T3M4Smc9ZV1Hj4MSqAEIEBKjAQocNW5mNTJDcnJyZHJNSlpFQW9yc3pqQnJDN2o4PRIkMmVjMzFjZWEtZDIxNy00MDRmLWJhNjktNDhkYjc2N2VmNWVkGAAgAigCMMPu2uSNMTixgZ/e/zBAncPa5I0xShxnSUV6QXhOZnd6QU50MnZvamxwTzJTbGJSOWc9Wh8iHd1GOWdFaytZN0N5S3BUVEVxbVVaVlIxM2pJR1k9ZT7Hcf4SqQEIEhKkAQocZ1R1SzhVSVIvcFdFZ1FpRkZWNWZHTVJZWGJvPRIkZmFmZWZmODktYTYxMi00MTMzLWI3YjgtYzRhMTVmZGEyNDVhGAAgAigCMMnu2uSNMTjglo6uizFAnsPa5I0xShw2U1JFVzBtTCtLOGZyd3pLOVdhZ2JOdlNjeEE9WiAiHvtTWjdmWXZCaFdZTkxCMTJrY2NDSUdJU0NUMEdrPWUp7Ew+EqgBCBESowEKHDM4ZVlrdi9hRDRvMGl3dk1Ba1IzSHdsb2dRcz0SJDBjNGMxMWY2LTRlODQtNDVjYy04NzJjLThmZGExZGY0ODg3NBgAIAIoAjDC7trkjTE4zNb3/P8wQJ7D2uSNMUocYVZmZm5iTzIyTmNHTVVIZTRiWWNadWY4QUpVPVofIh37U1FkcjRGaTIwWFJMVzlCTkovbUY2QUdRcXlvPWVEZWlgEokBCAMShAEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDFkZGU4NGNlLTc3NjYtNWE3OC05YWIzLWU5NGYzZmVkM2EwZRgAIAAoADCU98nPyy446vf33OgvQOr399zoL0oceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAASqAEIDxKjAQoca3JIN3cwQmRoS0VQbDJGWDM3QkRJeTJ2WDJrPRIkNTdjNWU3NTItY2M2MS00ZDc3LThiMWUtYWIxZmI4YmE0M2Y4GAAgAigCMMHu2uSNMTi0hc/c/zBAncPa5I0xShxNNXBROXZWYlljZ0Nlc1JIaytTZkxIdEhyT2c9Wh8iHbpDRHo3YkpBT2ZhdHJWZVFNSjlZelE3VW1vVHM9ZcXPkAESiQEIARKEAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkMjhjMzJhY2YtNjhiOC01NmI2LTg2ZDItYjBkOTM3YWMxNThmGAAgACgAMI/3yc/LLjj99vfc6C9A/fb33OgvShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABKoAQgNEqMBChxTMHY2MUx0cFErUmo3bm9DT09wTTVqc1FkQ2M9EiRkMWRiYzE5YS1jOTY2LTQzYTMtOTRhNy0wMjVhNjQ2YjQ5ZWYYACAAKAAwp6XR7osxOJiT0e6LMUCYk9HuizFKHCtWRFJtbU9pSkl4ZjYrNTdNM3FFa2x6VTZ2bz1aHyId7TRMUWtrSHJvM2YvSGVQd3daTW9aMmFlTXhLOD1lIQohiRKoAQgMEqMBChwrSlV0Rk91aFA2ZndObk1DalZtWWFhMzZ4VnM9EiQ1MWY4MDc1ZS0yNjM2LTRmYjMtYWJlOC1kZWUxYzE4MzZkZjAYACAAKAAwqbv9rYsxON+7/a2LMUDfu/2tizFKHEZNV3p3aExZV2RQWHJGMW82cFlpc2wrTFZnWT1aHyId2kRFL082UnN1ZGd1Tkd3RTgrRVFnVmxBNFQzaz1lS1M8hxKoAQgTEqMBChx5UjVVZVpQVi8yUjhDb1BlN2VTZVJvNS9aaEU9EiQyNDkxMmEwYy0zMjAzLTQ3ZjctYjdkOS1hMmIxZmQ0NGEwMmQYACACKAIwx+7a5I0xOIKNl+iHMUCew9rkjTFKHDRRa0JjUSttbi84TmRuNXozNk9hZ0Nuc0syYz1aHyId+1gvaG9ueWdLdzBNU1VHTkpibEUwQTdQdCtMTT1l8kVu9xKpAQgWEqQBChx3NHJtbFFqTSt4aElhTE5sVXo0bGJWVThaNFE9EiRlNGFmZTNkOS1mMmJkLTQ3OTMtYTE1OC03YmI4NTQ5MTdmZDEYACACKAIwwO7a5I0xOJ2ogvT/MECfw9rkjTFKHCtRbzAvL1pTWm8rVVVEendDSDJIUVNLMHZtQT1aICIe/6o4UXdvZFBMZlBQTkJINFlLNkdFQnNOdUs1VUk9ZYuuClASpwEIDhKiAQocY1QrSzNwSzYvNkNYZTNKSmcrWWJMRE92K2ZFPRIkOThlMzcxYTMtODQ0YS00ZDQ3LTgzNDgtZGE0ODU0Yzg1YjJhGAAgAigCML/u2uSNMTiD0Y/L/zBAncPa5I0xShxoNDhrQi9LbVpkVTFEbHBySTdQNG13ejVDOGs9Wh4iHHVKRzdaK2JmWXRMY29MR3hDdmQvNXlkVmRGbz1li6CM0RKnAQgKEqIBChxLUDl5M014bHoxMzdDUFB3NUs3dHE4cUdHSnc9EiQwYzQ5MmZiYS1mMGYzLTQ2YTUtYjY0Ni1iMTliN2JmM2U2ZjQYACAAKAAwyKLYrYsxOP6i2K2LMUD+otitizFKHHdmc2JITVh2eDRzRTcwcW41ak0yNTRpbURHQT1aHiIcaEFZYVZrMUl0cWdnZjFxTFMvcTU1d1FIUDJJPWVLUzyHEokBCAIShAEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJGJiYTFjNjFlLTQzY2MtNTQ3OS04NGMyLTQxNTFhZjUwZmE4NxgAIAAoADCQ98nPyy44jff33OgvQI3399zoL0ocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAASqAEICxKjAQocRi9IRGpCSU1LTlYxRm5wWERsM2tIWVpZZGRFPRIkNTI3YzI5NDYtNDVhNC00NTI5LTkxYTAtOGRlNjYwOGNjOGQ1GAAgACgAMJfF+K2LMTjPxfitizFAz8X4rYsxShxEK0Q1d21mVzFOK09lSzRBZTFjbmlVRFNIdlE9Wh8iHbQyS28xcnZlT20zWXl3YnpOM3FFUWhhODBsVWs9ZUtTPIcSpwEICRKiAQocWHZPTkVySGtlS1dJa2JRb3JYeHFQcTc0bURNPRIkZWEwY2FmMjctZjcwZC00Mzc0LTllNDktMDJhM2M3ZGJiMjBhGAAgACgAMKHSxa2LMTjqscWtizFA6rHFrYsxShxUdGIwYTc3Z1FxSXU3bC85WjBMNER0Ylg4SHM9Wh4iHE1ZY0R1czV3TEdmQWNBQWhjSy94cmJteG1LZz1llNHMRDAAOAA=",
+   "version": 1
+}

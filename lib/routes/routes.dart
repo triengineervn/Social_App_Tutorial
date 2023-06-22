@@ -4,7 +4,7 @@ import 'package:social_app_tutorial/features/authentication/pages/landing_page.d
 import 'package:social_app_tutorial/features/authentication/pages/login_page.dart';
 import 'package:social_app_tutorial/features/authentication/pages/regis_page.dart';
 import 'package:social_app_tutorial/features/notification/pages/notification_settting_page.dart';
-import 'package:social_app_tutorial/features/post/widgets/bottomNav_menu.dart';
+import 'package:social_app_tutorial/widgets/stateless/bottomNav_menu.dart';
 import 'package:social_app_tutorial/routes/route_name.dart';
 
 class MyApp extends StatelessWidget {
