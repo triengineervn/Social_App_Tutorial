@@ -88,7 +88,7 @@ class _RegisScreenState extends State<RegisScreen> {
                   children: [
                     Text(
                       'Create an account',
-                      style: AppStyles.headline1.copyWith(fontSize: 34),
+                      style: AppStyles.headline1.copyWith(fontSize: 32),
                     ),
                     const SizedBox(height: 50),
                     CustomTextField(textController: userNameController, typeOfText: 'user'),
@@ -106,14 +106,14 @@ class _RegisScreenState extends State<RegisScreen> {
                     Center(
                       child: Text(
                         'By clicking Sign up you agree to the following',
-                        style: AppStyles.body15.copyWith(color: AppColors.gray1),
+                        style: AppStyles.body15.copyWith(color: AppColors.gray1, fontSize: 13),
                       ),
                     ),
                     const SizedBox(height: 5),
                     Center(
                       child: Text(
                         'Terms and Conditions without reservation ',
-                        style: AppStyles.body15.copyWith(color: AppColors.gray1),
+                        style: AppStyles.body15.copyWith(color: AppColors.gray1, fontSize: 13),
                       ),
                     ),
                   ],

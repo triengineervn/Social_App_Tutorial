@@ -68,7 +68,7 @@ class _SettingNotiScreenState extends State<SettingNotiScreen> {
             const SizedBox(height: 18),
             Text(
               'Enable push notifications to let send you personal news and updates',
-              style: AppStyles.body17.copyWith(height: 1.2),
+              style: AppStyles.body15.copyWith(height: 1.2),
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 44),

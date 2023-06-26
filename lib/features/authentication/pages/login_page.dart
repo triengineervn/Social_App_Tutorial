@@ -84,7 +84,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   children: [
                     Text(
                       'Welcome back',
-                      style: AppStyles.headline1,
+                      style: AppStyles.headline1.copyWith(fontSize: 34),
                     ),
                     const SizedBox(height: 12),
                     Text(
